@@ -7,7 +7,7 @@
 }
 body{
     background-color:#F7F7F7;
-
+}
   .circle{
 margin-top: 23px;
 margin-left: 27px;
@@ -202,7 +202,6 @@ width: 158px;
 height: 20px;
 color:#959595;
 font-size: 14px;
-font-family: ;
 margin-left: 180px;
 margin-right: 90px;
 
@@ -213,7 +212,6 @@ margin-right: 90px;
     height: 20px;
     color:#959595;
     font-size: 18px;
-    font-family: ;
     margin-right: 90px;
     
     }
@@ -237,7 +235,6 @@ margin-right: 90px;
     width: 141px;
     height: 20px;
     color: #000000;
-    font-family: ;
     font-size: 14px;
     margin-top: 90px;
     margin-left: 181px;
@@ -261,41 +258,46 @@ height: 276px;
 .space1{
     position: relative;
 }
-
-.button{
-margin-top: 90px;
-margin-left: 616px;
-margin-right: 647px;
-padding-top: 16px;
-padding-bottom: 14px;
-padding-left: 70px;
-padding-right: 17px;
-background-color: #FF7600; 
-float:right;
-border-right-style: solid;
+.buttonblock{
+    display:flex;
+    width: 177px;
+    height: 48px;
+    margin-top: 90px;
+    margin-left: 616px;
+    margin-right: 647px; 
 }
+
+.button6{
+ width:90px;
+height: 18px; 
+   padding-top: 16px;  
+ padding-bottom: 14px; 
+ padding-left: 70px;
+padding-right: 17px;  
+color:#FFFFFF; 
+background-color: #FF7600;
+} 
 .eye{
-float:left;
 width: 24px;
 height: 17px;
 color: #FFFFFF;
-border-right-color: ;
-} 
-.buttonblock{
-    display:flex;
+}
+.buttonblock eye::after {
+    content: "";
+    display: inline-block;
+    height: 30px;
+    width: 2px;
+    background-color: black;
+    margin-left: 10px;
 }
  .footer{
-width: 927px;
+width: 1440px;
 height: 422px;
 margin-top: 88px; 
+display: flex;
  }
-   
-.footerblock{
-    display: inline-block;
-   
-}
 .head{
-display:inline-block;
+
 width: 122px;
 height: 18px;
 font-size: 12px;
@@ -304,14 +306,14 @@ margin-left: 50px;
 
 }
 .head1{
-    display:inline-block;
+    
     width: 134px;
     height: 18px;
     font-size: 12px;
     color: #111111;
     }
     .head2{
-    display:inline-block;
+    
     width: 91px;
     height: 18px;
     font-size: 12px;
@@ -319,7 +321,7 @@ margin-left: 50px;
     margin-left: 134px;
     }
     .head3{
-     display: inline-block;
+    
      width: 69px;
      height: 18px;
      font-size: 12px;
@@ -328,7 +330,6 @@ margin-left: 50px;
  } 
 
 .secondinfo{
-    display: flex;
      width: 100px;
     height: 112px; 
     color: #959595;
@@ -337,7 +338,7 @@ margin-left: 50px;
     margin-right: 119px;
 }
 .secondinfo1{
-    display: flex;
+
      width: 130px;
     height: 112px; 
     color: #959595;
@@ -346,7 +347,6 @@ margin-left: 50px;
    
 }
 .secondinfo2{
-    display: flex;
      width: 54px;
     height: 112px; 
     color: #959595;
@@ -355,11 +355,87 @@ margin-left: 50px;
     margin-right: 188px;
 }
   .secondinfo3{
-    display: flex;
+    
      width: 38px;
     height: 162px; 
     color: #959595;
     font-size: 11px;
     margin-left:188px;
     margin-right: 98px;
+    margin-bottom: 1px;
+
+  }
+
+  .whiteblock1{
+    width: 1000px;
+    height: 420px;
+   background-color: #FFFFFF; 
+  } 
+  .footerh5{
+width: 227px;
+height: 18px;
+font-size: 12px;
+color: #111111;
+
+  }
+  .footerp{
+width: 296px;
+height: 34px;
+color: #111111;
+font-size: 14px;
+  }
+  .emailh5{
+width: 31px;
+height: 12px;
+font-size: 11px;
+color: #111111;
+  }
+  .footerdiv{
+display: flex;
+  }
+  .input{
+width: 249px;
+height: 37px;
+border-color:#0865DE;
+  }
+  .ok{
+    width: 45px;
+    color: #FFFFFF;
+    padding-left: 14;
+    padding-right: 14px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    background-color: #0865DE;
+    margin: 0;
+    padding: 0;
+  }
+  .footermaindiv{
+    display: flex;
+    justify-content: space-between;
+    width: 1440px;
+height: 120px;
+  }
+  .footerdiv3{
+    display: flex;
+  }
+  .footerlogo{
+    width: 27px;
+    height: 27px;
+    margin-left: 90px;
+    margin-top: 47px;
+    margin-right: 37px;
+  }
+  .footerp2{
+    width: 352px;
+    height: 32px;
+    color: #959595;
+    margin-top: 45px;
+  }
+  .footerp3{
+    width: 280px;
+    height: 12px;
+    color: #959595;
+    margin-top: 67px;
+    margin-right: 1px;
+    margin-left: 80px;
   }
